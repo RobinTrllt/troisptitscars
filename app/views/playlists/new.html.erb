@@ -1,0 +1,8 @@
+<div class="container">
+  <h1>Create your playlist</h1>
+
+  <%= simple_form_for(@playlist) do |f| %>
+    <%= f.input :name, input_html: { class: "input" } %>
+    <%= f.submit class: "btn btn-create" %>
+  <% end %>
+</div>

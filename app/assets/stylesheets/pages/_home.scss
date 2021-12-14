@@ -1,1 +1,26 @@
 // Specific CSS for your home-page
+
+.container{
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.home-menu{
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn-home{
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 40px;
+  padding: 10px 40px;
+}
+
+.btn-home:hover{
+  color: rgba(255, 255, 255, 1.0);
+  background-color: rgba(255, 123, 0, 0.7);
+  transition: 1400ms;
+}

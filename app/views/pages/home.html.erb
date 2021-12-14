@@ -1,2 +1,16 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+
+<div class="container">
+  <div class="home-menu">
+    <%= link_to(songs_path, class:'btn btn-home') do %>
+    <i class="fas fa-record-vinyl"></i> <%= "All Songs"  %>
+    <% end %>
+
+    <%= link_to(playlists_path, class:'btn btn-home') do %>
+    <i class="fas fa-headphones"></i> My Playlists
+    <% end %>
+
+    <%= link_to(new_playlist_path, class:'btn btn-home') do %>
+    <i class="fas fa-plus-square"></i> Create Playlist
+    <% end %>
+  </div>
+</div>

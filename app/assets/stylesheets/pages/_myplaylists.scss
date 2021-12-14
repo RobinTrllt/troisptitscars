@@ -1,0 +1,51 @@
+.btn-add-playlist{
+  color: rgba(255, 111, 0, 0.802);
+  font-size: 35px;
+  padding: 10px 30px;
+}
+
+.btn-add-playlist:hover{
+  color: rgb(255, 111, 0);
+}
+
+.playlist{
+  background-color: rgb(24, 24, 24);
+  padding: 10px;
+  margin: 10px;
+  font-size: 24px;
+  border-radius: 15px;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.playlist:hover{
+  background-color: rgb(43, 43, 43);
+  transition: 600ms;
+  color: white;
+}
+
+.btn-create{
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 40px;
+  padding: 10px 40px;
+}
+
+.btn-create:hover{
+  color: rgba(255, 255, 255, 1.0);
+  background-color: rgba(255, 123, 0, 0.7);
+  transition: 200ms;
+}
+
+.input{
+  border-radius: 50px;
+  font-size: 26px;
+  padding: Opx 30px;
+  font-weight: 500;
+}
+
+.input:focus{
+  box-shadow: 0 0 20px rgba(255, 123, 0, 0.9);
+}

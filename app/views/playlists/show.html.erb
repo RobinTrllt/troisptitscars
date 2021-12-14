@@ -1,0 +1,10 @@
+<div class="container">
+  <h1><%= @playlist.name %></h1>
+  <h3><%= @playlist.description %></h3>
+  <% @playlist.songs.each do |song| %>
+    <div>
+      <%= "#{song.title}" %>
+    </div>
+
+  <% end %>
+</div>

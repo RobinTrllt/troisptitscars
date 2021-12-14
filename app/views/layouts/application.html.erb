@@ -12,6 +12,15 @@
   </head>
 
   <body>
+
+  <div class="header">
+    <%= link_to root_path do%>
+      <%= image_tag("3ptitscars.png", class: "logo-high") %>
+    <% end %>
+    <h1><strong> You are what you listen to </strong></h1>
+  </div>
+
     <%= yield %>
+
   </body>
 </html>

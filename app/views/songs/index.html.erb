@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="songs">
+    <h1> All Songs</h1>
+
+    <% @songs.each do |song| %>
+      <div class="song-card">
+        <%= link_to song_path(song) do %>
+        <i class="far fa-play-circle"></i> <strong><%= "#{song.title}" %> </strong>
+        <%=" - #{song.album.artist.name}"%>
+        <%= " - #{song.album.title}" %>
+        <%= " - #{song.genre}" %>
+        <% end %>
+      </div>
+      <% end %>
+  </div>
+</div>

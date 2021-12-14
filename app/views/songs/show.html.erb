@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="song-show-card">
+    <%= "#{@song.title}" %>
+    <%= "#{@song.album.artist.name}" %>
+    <%= "#{@song.album.title}" %>
+    <%= "#{@song.genre}" %>
+    <%= "#{@song.duration}" %>
+
+    <img src= <%= "#{@song.album.artist.photo}" %> alt="">
+
+    <%= link_to("Add to a playlist", new_song_playlist_song_path(@song)) %>
+  </div>
+</div>

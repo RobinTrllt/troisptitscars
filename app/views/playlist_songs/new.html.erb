@@ -1,0 +1,8 @@
+<div class="container">
+  <h1>Add <%= @song.title %> to a playlist</h1>
+
+  <%= simple_form_for([@song, @playlist_song]) do |f| %>
+    <%= f.association :playlist, input_html: { class: "input" } %>
+    <%= f.submit class: "btn btn-create"%>
+  <% end %>
+</div>
